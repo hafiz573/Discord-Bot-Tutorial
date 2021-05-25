@@ -13,6 +13,7 @@ client.on("ready", async () => {
   })
   console.log("Bot Is Ready") 
 });
+//code by hafiz573/HZR_H3RY
 
 // Message Event
 client.on("message", async message => { 
