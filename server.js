@@ -8,10 +8,12 @@ const alt = require("discord-anti-alt");
 
 // Ready Event
 client.on("ready", async () => {
-  client.user.setActivity("Tutorial discord bot",{
+  client.user.setActivity("bot anti alts",{
     type:"WATCHING" // You can make it WATCHING,LISTENING, PLAYING AND STREAMING (note: use capital words)
   })
   console.log("Bot Is Ready") 
+  
+  require("http").createServer((req, res) => res.end("alive")).listen();
 });
 //code by hafiz573/HZR_H3RY
 
